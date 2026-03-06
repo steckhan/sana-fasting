@@ -35,8 +35,8 @@ Sana is a warm, direct, no-BS health coach that runs on your own infrastructure 
 
 ```bash
 # 1. Clone this repo into your OpenClaw workspace directory
-git clone https://github.com/YOUR_USERNAME/health-coach-agent.git
-cd health-coach-agent
+git clone https://github.com/steckhan/sana-fasting.git
+cd sana-fasting
 
 # 2. Run the install script
 chmod +x install.sh
