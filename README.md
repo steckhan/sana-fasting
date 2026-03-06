@@ -52,7 +52,7 @@ openclaw gateway restart
 ## Directory Structure
 
 ```
-health-coach-agent/
+sana-fasting/
 ├── README.md              ← You are here
 ├── install.sh             ← Automated setup script
 ├── agent-config.json      ← OpenClaw agent definition
