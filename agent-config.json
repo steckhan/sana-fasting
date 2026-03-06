@@ -1,0 +1,18 @@
+{
+  "id": "health-coach",
+  "name": "health-coach",
+  "workspace": "~/.openclaw/workspace-health-coach",
+  "model": "anthropic/claude-sonnet-4-6",
+  "memorySearch": {
+    "enabled": true,
+    "extraPaths": [
+      "~/.openclaw/workspace-health-coach/knowledge",
+      "~/.openclaw/workspace-health-coach/protocols",
+      "~/.openclaw/workspace-health-coach/memory"
+    ]
+  },
+  "identity": {
+    "name": "Sana",
+    "emoji": "🏃"
+  }
+}

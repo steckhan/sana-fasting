@@ -1,0 +1,6 @@
+tools/.withings-credentials.json
+.venv/
+memory/*.md
+!memory/.gitkeep
+inbox-pdfs/
+.openclaw/
