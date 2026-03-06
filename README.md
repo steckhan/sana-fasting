@@ -1,4 +1,4 @@
-# 🏃 Sana — AI Health Coach for OpenClaw
+# Sana — AI Health and Fasting Coach for OpenClaw
 
 An evidence-based health coaching agent for [OpenClaw](https://github.com/openclaw/openclaw), specializing in:
 
@@ -34,19 +34,19 @@ Sana is a warm, direct, no-BS health coach that runs on your own infrastructure 
 ## Quick Start
 
 ```bash
-# 1. Clone this repo into your OpenClaw workspace directory
+# Sana — AI Health and Fasting Coach for OpenClaw
 git clone https://github.com/steckhan/sana-fasting.git
 cd sana-fasting
 
-# 2. Run the install script
+# Sana — AI Health and Fasting Coach for OpenClaw
 chmod +x install.sh
 ./install.sh
 
-# 3. Restart OpenClaw
+# Sana — AI Health and Fasting Coach for OpenClaw
 openclaw gateway restart
 
-# 4. Start chatting with Sana on your messaging channel!
-#    The BOOTSTRAP.md will guide Sana through personalizing to you.
+# Sana — AI Health and Fasting Coach for OpenClaw
+# Sana — AI Health and Fasting Coach for OpenClaw
 ```
 
 ## Directory Structure
@@ -91,17 +91,17 @@ sana-fasting/
 If you have a Withings BP cuff or scale:
 
 ```bash
-# 1. Create a Withings developer app at https://developer.withings.com/
-# 2. Set up Python environment
+# Sana — AI Health and Fasting Coach for OpenClaw
+# Sana — AI Health and Fasting Coach for OpenClaw
 python3 -m venv .venv
 source .venv/bin/activate
 pip install withings-api requests-oauthlib
 
-# 3. Run the auth flow
+# Sana — AI Health and Fasting Coach for OpenClaw
 python3 tools/withings-auth.py
-# Follow the OAuth flow in your browser
+# Sana — AI Health and Fasting Coach for OpenClaw
 
-# 4. Test the sync
+# Sana — AI Health and Fasting Coach for OpenClaw
 python3 tools/withings-sync.py
 ```
 
