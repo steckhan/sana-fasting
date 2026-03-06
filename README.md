@@ -143,6 +143,7 @@ Added as `health-coach` to `agents.list` with its own workspace, model (Claude S
 - Create a second Telegram bot via [@BotFather](https://t.me/BotFather)
 - Configure as a separate account under `channels.telegram`
 - Bind via `bindings[]` → any DM to the Sana bot routes to the `health-coach` agent
+- You can also add the `health-coach` agent from your main agent running in OpenClaw.
 
 ### 3. Workspace Files
 | File | Purpose |
@@ -187,3 +188,4 @@ MIT — use it, fork it, make it yours.
 ## Credits
 
 Built with [OpenClaw](https://github.com/openclaw/openclaw) and Claude by Anthropic.
+
